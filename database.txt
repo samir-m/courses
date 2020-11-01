@@ -1,0 +1,3 @@
+CREATE TABLE `courses`.`login` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `name` VARCHAR(250) NOT NULL , `email` VARCHAR(250) NOT NULL , `contact` VARCHAR(15) NOT NULL , `password` VARCHAR(50) NOT NULL , `auth_token` VARCHAR(50) NOT NULL , `auth_type` VARCHAR(20) NOT NULL , `created_at` DATETIME NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+INSERT INTO `login` (`id`, `name`, `email`, `contact`, `password`, `auth_token`, `auth_type`, `created_at`) VALUES (NULL, 'Test User', 'testuser@gmail.com', '1234567890', '21232f297a57a5a743894a0e4a801fc3', 'a18bf786efb76a3d56ee69a3b343952a', 'admin', '2020-11-01 13:08:49');
